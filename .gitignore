@@ -1,3 +1,38 @@
+# ======= C++ =======
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Dossiers CMake ou autres build
+build/
+bin/
+lib/
+
+# ======= MATLAB =======
+*.asv
+*.m~
+*.mlx~
+*.fig~
+*.mat
+*.mex*
+*.mdl.autosave
+*.slxc
+*.slx.autosave
+*.log
+
+# Dossiers générés
+slprj/
+sfunworks/
+work/
+
+# Fichiers système
+.DS_Store
+
+
 clc;
 clear;
 % === Données système continu ===
