@@ -14,7 +14,7 @@ Experimental identification and modern state-space control of a **3-DoF twin-rot
 
 ## The plant: identified 5-state multivariable model
 
-Each channel is identified experimentally in open loop: elevation is a lightly damped second-order mode (`ξ = 0.05`, `ω₀ = 0.7 rad/s`), pitch a double integrator (`K_t = 1.336`), and yaw an integrator + first-order lag (`K_l = −5.219`, `τ_l = 20 s`). Assembled together:
+Each channel is identified experimentally in open loop: elevation is a lightly damped second-order mode (`ξ = 0.05`, `ω₀ = 0.7 rad/s`), pitch a double integrator (`K_t = 1.336`), and yaw an integrator + first-order lag (`K_l = −5.219`, `τ_l = 10 s`). Assembled together:
 
 <p align="center">
   <picture>
