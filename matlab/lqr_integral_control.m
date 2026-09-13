@@ -9,6 +9,16 @@ clc;
 clear;
 close all;
 
+% Resolve the Simulink model relative to this script.
+scriptDirectory = fileparts(mfilename('fullpath'));
+modelName = 'rebi';
+modelPath = fullfile(scriptDirectory, [modelName '.mdl']);
+if ~isfile(modelPath)
+    error('Control:MissingModel', ...
+        'Expected Simulink model not found: %s', modelPath);
+end
+addpath(scriptDirectory);
+
 %% ==== Identified parameters ====
 Kl   = -5.21894;   % yaw-channel gain
 Kt   = 1.336;      % pitch-channel gain (double integrator)
@@ -63,7 +73,7 @@ Vp
 
 %% ==== Simulink simulation ====
 fprintf('---- Running Simulink simulation (rebi model) ----\n')
-sim('rebi');
+sim(modelName);
 t_signal = t;
 
 %% ==== Plot: 2 outputs and 2 commands ====
