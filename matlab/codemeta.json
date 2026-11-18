@@ -1,0 +1,32 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Twin-Rotor Helicopter: Integral State-Feedback and LQR MATLAB/Simulink Tools",
+  "description": "MATLAB/Simulink research software for identification and integral state-feedback/LQR control of a laboratory twin-rotor helicopter. This source component contains controller scripts and authored Simulink models; the historical report distinguishes simulation and dSPACE experiments. No new hardware rerun or performance benchmark is claimed.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Dev",
+      "familyName": "Kumar",
+      "@id": "https://orcid.org/0009-0008-2279-9163"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Steevy",
+      "familyName": "Doumbe Moundy"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Léa",
+      "familyName": "Couësme"
+    }
+  ],
+  "codeRepository": "https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback/tree/main/matlab",
+  "url": "https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback/tree/main/matlab",
+  "license": "https://spdx.org/licenses/MIT",
+  "programmingLanguage": [
+    "MATLAB",
+    "Simulink"
+  ],
+  "isPartOf": "https://github.com/devkumar-projects/Control-of-an-instable-system-using-digital-state-feedback"
+}
