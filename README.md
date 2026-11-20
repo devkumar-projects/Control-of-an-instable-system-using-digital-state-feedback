@@ -131,8 +131,6 @@ matlab/
 └── rebi_r2010b.mdl                            Same model exported for R2010b compatibility
 
 docs/
-├── Helicopter_Control_Report.pdf              Full 20-page project report (identification,
-│                                                synthesis, real-time validation, comparison)
 ├── images/                                    Figures used in this README
 └── equations/                                 Pre-rendered equations (light/dark variants)
 ```
@@ -156,8 +154,10 @@ Requires MATLAB + Control System Toolbox + Simulink. `rebi.mdl` needs R2026a; on
 
 **Dev Kumar**, Steevy Doumbe Moundy, Léa Couësme — Arts et Métiers ParisTech (ENSAM), Mechatronics Expertise, supervised by Hervé Guillard, Nazih Mechbal, and Marc Rébillat. Real-time experiments on the dSPACE-instrumented twin-rotor platform (ENSAM / CNAM).
 
-Full derivations, identification plots, and experimental traces: [`docs/Helicopter_Control_Report.pdf`](docs/Helicopter_Control_Report.pdf).
+Full derivations, identification plots, and experimental traces: [the full research report](https://dev-kumar.com/reports/twin-rotor-helicopter.pdf).
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+The linked manuscript is hosted on the portfolio. Its authors and distribution terms are stated in the PDF; the software licence does not relicense the manuscript.
